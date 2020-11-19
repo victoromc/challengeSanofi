@@ -21,4 +21,4 @@ ftp.retrbinary('RETR ' + fn, file.write)
 ftp.quit()
 
 print(fn)
-input("\nDigite o número da pasta que deseja acessar: \n")
+#input("\nDigite o número da pasta que deseja acessar: \n")
