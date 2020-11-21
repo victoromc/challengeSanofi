@@ -7,7 +7,7 @@ Projeto desenvolvido para explorar a base do DATASUS e converter os arquivos DBC
 - git
 - [docker](https://store.docker.com/editions/community/docker-ce-server-ubuntu)
 
-Logo em seguinda execute os passos abaixo:
+Logo em seguida execute os passos abaixo:
 
 ```bash
 $ git clone https://github.com/greatjapa/dbc2csv.git
@@ -17,12 +17,13 @@ $ docker build -t dbc2csv .
 
 ## Como funciona?
 
-- Executar o comando, dentro da pasta "challengeSanofi"
+Executar o comando, dentro da pasta "challengeSanofi"
 ```bash
 $ ./challengeSanofi.sh
 ```
-- E então, navegar pelo FTP do DATASUS até o arquivo DBC que você deseja baixar.
-- Ao final do processo, o diretório `Source` será preenchido com arquivos `dbf` e `csv`:
+E então, navegar pelo FTP do DATASUS até o arquivo DBC que você deseja baixar.
+
+Ao final do processo, o diretório `Source` será preenchido com arquivos `dbf` e `csv`:
 
 ```
 source/
