@@ -1,4 +1,4 @@
-# dbc2csv [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/victoromc/challengeSanofi/blob/master/LICENSE)
+# challengeSanofi [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/victoromc/challengeSanofi/blob/master/LICENSE)
 
 Projeto desenvolvido para explorar a base do DATASUS e converter os arquivos DBC's em CSV's, compativel apenas para Linux.
 
@@ -39,7 +39,5 @@ source/
 
 
 ## Referências
-
-* [GIT greatjapa](https://github.com/greatjapa/dbc2csv)
 
 * [Documentação oficial do SUS](http://cnes.datasus.gov.br/pages/downloads/documentacao.jsp), `http://CNES.DataSUS.gov.br`.
