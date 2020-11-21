@@ -1,6 +1,7 @@
 import os
 import ftplib
 import zipfile
+import pathlib
 
 site = "ftp.datasus.gov.br"
 diretorio = "/dissemin/publicos/"
@@ -54,10 +55,10 @@ arquivos = ftp.nlst()
 for arquivo in arquivos:
     print(arquivo)
 
-# savedir = "/home/oliver/Desktop/dbc2csv/Source" # linux
 
 fn = input("\nDigite o nome do arquivo que deseja baixar:")
-savedir = input("\nDigite o diretório que o arquivo será salvo:\n")
+#savedir = input("\nDigite o diretório que o arquivo será salvo:\n")
+savedir = str(pathlib.Path().absolute())+ "/Source/"
 os.chdir(savedir)
 file = open(fn, "wb")
 ftp.retrbinary('RETR ' + fn, file.write)
