@@ -13,19 +13,16 @@ Logo em seguinda execute os passos abaixo:
 $ git clone https://github.com/greatjapa/dbc2csv.git
 $ cd challengeSanofi
 $ docker build -t dbc2csv .
-$ ./challengeSanofi.sh
 ```
 
 ## Como funciona?
 
-Ao executar o comando, dentro da pasta "challengeSanofi"
+- Executar o comando, dentro da pasta "challengeSanofi"
 ```bash
 $ ./challengeSanofi.sh
 ```
-
-E então, navegar pelo FTP do DATASUS até o arquivo DBC que você deseja baixar.
-Após escolher o arquivo, será criado um diretório "Source" e em seguido convertido
-Ao final do processo, o diretório `Source` será preenchido com arquivos `dbf` e `csv`:
+- E então, navegar pelo FTP do DATASUS até o arquivo DBC que você deseja baixar.
+- Ao final do processo, o diretório `Source` será preenchido com arquivos `dbf` e `csv`:
 
 ```
 source/
