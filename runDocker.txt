@@ -1,1 +1,3 @@
-docker run -it -v ~/Desktop/dbc2csv/Source:/usr/src/app/data dbc2csv make
+sudo docker run -it -v ~/Desktop/challengeSanofi/Source:/usr/src/app/data dbc2csv make
+
+/home/oliver/Desktop/challengeSanofi/Source
