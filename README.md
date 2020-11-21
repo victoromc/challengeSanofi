@@ -7,7 +7,7 @@ Projeto desenvolvido para explorar a base do DATASUS e converter os arquivos DBC
 - git
 - [docker](https://store.docker.com/editions/community/docker-ce-server-ubuntu)
 
-Logo em seguida execute os passos abaixo:
+Em seguida execute os passos abaixo:
 
 ```bash
 $ git clone https://github.com/greatjapa/dbc2csv.git
