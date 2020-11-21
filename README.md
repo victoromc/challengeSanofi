@@ -40,6 +40,4 @@ source/
 
 ## Referências
 
-* [GIT greatjapa](https://github.com/greatjapa/dbc2csv)
-
 * [Documentação oficial do SUS](http://cnes.datasus.gov.br/pages/downloads/documentacao.jsp), `http://CNES.DataSUS.gov.br`.
