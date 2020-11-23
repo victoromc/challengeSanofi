@@ -25,7 +25,7 @@ $ ./challengeSanofi.sh
 ```
 E então, navegar pelo FTP do DATASUS até o arquivo DBC que você deseja baixar.
 
-Ao final do processo, o diretório `Source` será preenchido com arquivos `dbf` e `csv`:
+Ao longo do processo, o diretório `Source` e `csv` serão preenchidos com os arquivos devidamente convertidos:
 
 ```
 source/
@@ -36,6 +36,16 @@ source/
         ...
     ...
 ```
+
+Após a execução completa, os arquivos serão renomeados para `.lido` e `.convertido`:
+```
+source/
+    file00.dbc.convertido
+    file00.dbf.convertido
+    csv/
+        file00.csv.lido
+        ...
+    .
 
 
 ## Referências

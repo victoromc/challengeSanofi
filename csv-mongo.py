@@ -24,8 +24,6 @@ if __name__ == "__main__":
           filepath = str(pathlib.Path().absolute())+ "/Source/csv/" + file
           import_content(filepath)
           base = os.path.splitext(file)[0]
-          os.rename(str(pathlib.Path().absolute())+ "/Source/csv/"+file, str(pathlib.Path().absolute())+ "/Source/csv/"+base + ".lido")
+          os.rename(str(pathlib.Path().absolute())+ "/Source/csv/"+file, str(pathlib.Path().absolute())+ "/Source/csv/"+file+ ".lido")
           os.rename(str(pathlib.Path().absolute())+ "/Source/"+base+".dbc", str(pathlib.Path().absolute())+ "/Source/"+base + ".dbc" + ".convertido")
           os.rename(str(pathlib.Path().absolute())+ "/Source/"+base+".dbf", str(pathlib.Path().absolute())+ "/Source/"+base + ".dbf" + ".convertido")
-
-
