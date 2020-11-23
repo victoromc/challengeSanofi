@@ -1,6 +1,6 @@
 # challengeSanofi [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/victoromc/challengeSanofi/blob/master/LICENSE)
 
-Projeto desenvolvido para explorar a base do DATASUS e converter os arquivos DBC's em CSV's, compativel apenas para Linux.
+Projeto desenvolvido para explorar a base do DATASUS, converter os arquivos DBC's em CSV's e carregar no mongoDB, compativel apenas para Linux.
 
 ## Como instalar?
 
@@ -25,7 +25,7 @@ $ ./challengeSanofi.sh
 ```
 E então, navegar pelo FTP do DATASUS até o arquivo DBC que você deseja baixar.
 
-Ao longo do processo, o diretório `Source` e `csv` serão preenchidos com os arquivos devidamente convertidos:
+Ao longo do processo, os diretórios `Source` e `csv` serão preenchidos com os arquivos devidamente convertidos:
 
 ```
 source/
@@ -37,7 +37,7 @@ source/
     ...
 ```
 
-Após a execução completa, os arquivos serão renomeados para `.lido` e `.convertido`:
+Após a execução completa, as extensões finais para `.lido` e `.convertido`, evitando duplicidade:
 ```
 source/
     file00.dbc.convertido
@@ -45,7 +45,7 @@ source/
     csv/
         file00.csv.lido
         ...
-    .
+    ...
 ```
 
 ## Referências
