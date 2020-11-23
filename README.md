@@ -51,3 +51,11 @@ source/
 ## Referências
 
 * [Documentação oficial do SUS](http://cnes.datasus.gov.br/pages/downloads/documentacao.jsp), `http://CNES.DataSUS.gov.br`.
+
+## Desenvolvido por:
+- [Átila Ferreira](https://github.com/atilafsantos)
+- Mariana Lolato
+- [Paloma Ricato](https://github.com/PalomaRicato)
+- [Pedro Cardo](https://github.com/pedrocardo)
+- [Victor Oliver](https://github.com/victoromc)
+
