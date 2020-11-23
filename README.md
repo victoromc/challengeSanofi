@@ -52,7 +52,7 @@ source/
 
 * [Documentação oficial do SUS](http://cnes.datasus.gov.br/pages/downloads/documentacao.jsp), `http://CNES.DataSUS.gov.br`.
 
-## Desenvolvido por:
+## Desenvolvido por
 - [Átila Ferreira](https://github.com/atilafsantos)
 - Mariana Lolato
 - [Paloma Ricato](https://github.com/PalomaRicato)
