@@ -12,7 +12,7 @@ Em seguida execute os passos abaixo:
 
 ```bash
 $ cd ~/Desktop/
-$ git clone https://github.com/greatjapa/dbc2csv.git
+$ git clone https://github.com/victoromc/challengeSanofi.git
 $ cd challengeSanofi
 $ sudo docker build -t dbc2csv .
 ```
