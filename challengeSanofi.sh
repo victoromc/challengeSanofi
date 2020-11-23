@@ -1,1 +1,1 @@
-sudo mkdir Source;sudo python3 downloadftp.py;sudo docker run -it -v ~/Desktop/challengeSanofi/Source:/usr/src/app/data dbc2csv make
+sudo mkdir Source;sudo chmod -R a+rwx ~/Desktop/challengeSanofi/Source/;sudo python3 downloadftp.py;sudo docker run -it -v ~/Desktop/challengeSanofi/Source:/usr/src/app/data dbc2csv make;sudo chmod -R a+rwx ~/Desktop/challengeSanofi/Source/csv/;python3 csv-mongo.py

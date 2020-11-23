@@ -6,18 +6,20 @@ Projeto desenvolvido para explorar a base do DATASUS e converter os arquivos DBC
 
 - git
 - [docker](https://store.docker.com/editions/community/docker-ce-server-ubuntu)
+- [mongodb](https://www.mongodb.com/try/download/database-tools)
 
-Logo em seguida execute os passos abaixo:
+Em seguida execute os passos abaixo:
 
 ```bash
+$ cd ~/Desktop/
 $ git clone https://github.com/greatjapa/dbc2csv.git
 $ cd challengeSanofi
-$ docker build -t dbc2csv .
+$ sudo docker build -t dbc2csv .
 ```
 
 ## Como funciona?
 
-Executar o comando, dentro da pasta "challengeSanofi"
+Basta executar o comando, dentro da pasta "challengeSanofi"
 ```bash
 $ ./challengeSanofi.sh
 ```
